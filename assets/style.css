@@ -108,11 +108,30 @@ a:hover {
 
 /* Porfolio Page Images */
 
+.projects {
+  display: inline-block;
+  margin: 10px;
+  /* position: relative; */
+}
+
+.subtitle {
+  /* position: absolute; */
+  height: 5vh;
+  background-color: #45a049;
+  width: 100%;
+  display: table;
+  margin-bottom: 20px;
+}
+
+.subtitle h3 {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
 .container img {
   width: 250px;
   height: 200px;
-  margin-left: 50px;
-  margin-right: 50px;
 }
 
 /* Contact Page */
