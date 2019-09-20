@@ -1,0 +1,148 @@
+/* All Page Sections */
+
+main {
+  height: 90vh;
+  position: relative;
+}
+
+body {
+  background-image: url("./img/tokyo-luv-tnzzbvW9Rps-unsplash.jpg");
+  background-size: cover;
+  background-position: fill;
+  background-repeat: no-repeat;
+}
+
+header {
+  height: 10vh;
+  background-color: #34495e77;
+  display: table;
+  width: 100%;
+}
+
+/* Navigation Container Settings */
+
+.nav-link-container {
+  display: table;
+  float: right;
+  height: 10vh;
+  margin-right: 60px;
+}
+
+.nav-link {
+  display: table-cell;
+  vertical-align: middle;
+  text-decoration: none;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  padding: 20px;
+}
+
+a {
+  transition: all 0.15s ease-in;
+}
+
+a:hover {
+  transform: translate(-2px, -4px);
+  text-shadow: 5px 5px 5px purple;
+}
+
+.nav-link:not(:last-child) {
+  margin-right: 10px;
+}
+
+.name {
+  color: rgb(255, 255, 255);
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 120px;
+}
+
+.name,
+.nav-link {
+  letter-spacing: 2px;
+}
+
+/* Container Settings */
+
+.card-header {
+  height: 5%;
+  width: 100%;
+  background-color: rgba(87, 22, 87, 0.4);
+  border-radius: 15px;
+}
+
+.card-header-text {
+  display: table-cell;
+  color: white;
+  vertical-align: middle;
+  text-align: middle;
+  padding: 20px;
+}
+
+.card-text {
+  padding: 15px;
+}
+
+.container {
+  position: absolute;
+  width: 900px;
+  padding: 25px;
+  background-color: rgba(255, 255, 255, 0.233);
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  border-radius: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.507);
+}
+
+/* About Page */
+
+#selfie {
+  width: 200px;
+  height: 225px;
+  margin: 15px 15px 15px 15px;
+  float: left;
+}
+
+/* Porfolio Page Images */
+
+.container img {
+  width: 250px;
+  height: 200px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+/* Contact Page */
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid white;
+  border-radius: 15px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+#message {
+  height: 200px;
+}
