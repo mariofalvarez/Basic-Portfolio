@@ -55,6 +55,7 @@ a:hover {
   display: table-cell;
   vertical-align: middle;
   padding-left: 120px;
+  background-color: rgb(43, 216, 216);
 }
 
 .name,
@@ -169,4 +170,29 @@ input[type="submit"]:hover {
 
 #message {
   height: 200px;
+}
+
+/* Media Query Settings */
+
+@media screen and (max-width: 745px) {
+  h1.name {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  h1.name {
+    font-size: 1em;
+  }
+  header {
+    height: 15vh;
+    display: flex;
+    flex-flow: column;
+  }
+  header .nav-link {
+    margin: 0px 5px 0px 0px;
+  }
+  .nav-link-container {
+    margin: 0 auto;
+  }
 }
